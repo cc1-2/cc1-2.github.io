@@ -1,0 +1,105 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color:black;
+    
+    color: white;
+}
+
+.floatleft{
+    margin-left: 30px;
+    float: left;/*左浮动*/
+}
+
+nav{
+    margin-right: 40px;
+    float: right;/*右浮动*/
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;/*导航区内联展示*/
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    /*凝胶布局*/
+    width: 1000px;
+    height: 700px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+table{
+    width: 1000px;
+    border-spacing: 80px 25px;
+}
+
+td{
+    margin: 0;
+    padding: 0;
+    width: 425px;
+    height: 310px;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 35px;
+    background-color:black;
+    font-size: 0.5em;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+img{
+    width: 100%;
+}
+
+.div1{
+    /*凝胶布局*/
+    font-size: 2.5em;
+    font-weight: bold;
+    width: 100%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 70px;
+    padding: 10px;
+    margin-bottom: 70px;
+    border-top: 2px solid  black;
+    border-bottom: 2px solid black;
+}
+
+#span1{
+    font-style: italic;
+    text-decoration: underline;
+}

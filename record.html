@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet" href="./CSS/record.css">
+</head>
+<body>
+	<!-- 页眉区，包含“留下你的足迹”和导航区两个小块 -->
+	<header>
+		<p class="floatleft">留下你的足迹</p>
+		<!-- 导航区 -->
+			<nav>
+				<ul>
+					<li><a href="./index.html">首页 /</a></li>
+					<li><a href="./introduction.html"> 我的资料卡 /</a></li>
+					<li><a href="./movies.html"> 我的电影top榜单 /</a></li>
+					<li><a href="./dance.html"> 我爱街舞   </a></li>
+				</ul>
+			</nav>
+	</header>
+	<!-- 表单采用表格布局 -->
+    <form action="" method="post">
+		<div class="tableRow">
+			<p> 姓名: </p>
+			<p> <input type="text" name="name" value="" placeholder="" required> </p>
+		</div>
+		<div class="tableRow">
+			<p> 性别: </p>
+			<p>
+				<input type="radio" name="sex" value="男"> 男<br>
+				<input type="radio" name="sex" value="女" checked>女
+			</p>
+		</div>
+		<div class="tableRow">
+			<p> 手机号: </p>
+			<p> <input type="text" name="name" value="" placeholder="" required> </p>
+		</div>
+		<div class="tableRow">
+			<p> 邮箱: </p>
+			<p> <input type="text" name="name" value="" placeholder="" required> </p>
+		</div>
+		<div class="tableRow label">
+			<p> 生日日期: </p>
+			<p> <input type="date" name="date"> </p>
+		</div>
+		<div class="tableRow">
+			<p> 地址: </p>
+			<p> <textarea class="a1" name="comments"></textarea></p>
+		</div>
+		<div class="tableRow">
+			<p> 留言: </p>
+			<p>
+				<textarea class="a2" name="comments"></textarea>
+			</p>
+		</div>
+		<div class="tableRow">
+			<p></p>
+			<p> <input type="submit" value="提交"> </p>
+		</div>
+	</form>
+</body>
+</html>

@@ -1,0 +1,79 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color:black;
+    
+    color: white;
+}
+
+.floatleft{
+    /*左浮动*/
+    margin-left: 30px;
+    float: left;
+}
+
+nav{
+    /*右浮动*/
+    margin-right: 40px;
+    float: right;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    /*导航区内联展示*/
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+table{
+    /*简历表凝胶布局*/
+    border: 2px solid  black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+
+}
+
+td{
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+
+.td1{
+    height: 150px;/*“教育背景、工作经历、自我评价的内容高度增大*/
+}
+
+
+
+footer{
+    width: 100%;
+    height: 35px;
+    background-color:black;
+    font-size: 0.5em;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin-top: 5px;
+    padding-top: 15px;
+}

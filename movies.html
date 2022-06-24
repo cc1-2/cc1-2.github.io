@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/movies.css">
+
+    <script LANGUAGE="JavaScript">
+        function openwin1() {
+        window.open ("page1.html", "海蒂与爷爷","height=300, width=550, toolbar =no, menubar=no, scrollbars=no, resizable=no, location=no, status=no") 
+        }
+        function openwin2() {
+        window.open ("page2.html", "怦然心动","height=300, width=550, toolbar =no, menubar=no, scrollbars=no, resizable=no, location=no, status=no") 
+        }
+        function openwin3() {
+        window.open ("page3.html", "遇见你之前","height=300, width=550, toolbar =no, menubar=no, scrollbars=no, resizable=no, location=no, status=no") 
+        }
+        </script>
+        <!-- 设置了button弹窗，用于播放视频 -->
+        
+        
+</head>
+<body>
+    <!-- 页眉区，包含“我的电影top榜单”和nav导航区 -->
+    <header>
+        <p class="floatleft">我的电影top榜单</p>
+        <!-- 导航区 -->
+        <nav>
+            <ul>
+                <li><a href="./index.html">首页 /</a></li>
+                <li><a href="./introduction.html"> 我的资料卡 /</a></li>
+             <li><a href="./dance.html"> 我爱街舞</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- 第二大块，放置海蒂和爷爷相关内容 -->
+    <section>
+        <table>
+            <tr>
+                <td colspan="2"><img src="./images/海蒂和爷爷大.jpg" alt=""></td>
+                <!-- 列合并 -->
+            </tr>
+            <tr>
+                <td><img src="./images/海蒂和爷爷小.jpg" alt=""></td>
+                <td>
+                    <h2>>海蒂和爷爷<</h2><span></span>
+                    <p>海蒂(<span id="span1">阿努克·斯特芬</span>)自幼失去双亲，要到外地工作的姨妈将海蒂交给住在阿尔卑斯山上的爷爷(<span id="span1">布鲁诺·甘茨</span>)，爷爷性情古怪，长久以来离群索居，却被海蒂的纯真打动。海蒂和牧童彼得(<span id="span1">昆林·艾格匹</span>)一同徜徉在群山绿野之间，生活悠哉快乐。后来海蒂被送到法兰克福的一位不能走路的小姐克拉克(<span id="span1">伊莎贝尔·奥特曼</span>)身边当陪读，两人成为很好的朋友.后面海蒂对爷爷思念成疾，最终回到了爷爷身边。</p>
+                    <input type="button" onclick="openwin1()" value="查看视频">
+                    <!-- 按钮启动弹窗播放视频 -->
+                </td>
+            </tr>
+        </table>
+    <!-- 第三大块，放置怦然心动和遇见你之前相关内容 -->
+    </section>
+    <div class="div1">MOVIE & RELAX</div>
+    <section>
+        <table>
+            <tr>
+                <td><img src="./images/怦然心动.jpg" alt=""></td>
+                <td>
+                    <h2>>怦然心动<</h2>
+                    <p>布莱斯(<span id="span1">卡兰·麦克奥利菲</span>)全家搬到小镇，邻家女孩朱莉(<span id="span1">玛德琳·卡罗尔 </span>)前来帮忙。她对他一见钟情。两人是同班同学，朱莉一直想方设法接近布莱斯，但是他避之不及。两人之间发生了一些误会，朱莉对布莱斯的感情开始动摇，但此时布莱斯却开始不自觉地关注起了朱莉，在意识到自己对朱莉的感情后，他认真乞求朱莉的原谅，两人重归于好，敞开心扉。</p>
+                    <input type="button" onclick="openwin2()" value="查看视频">
+                    <!-- 按钮启动弹窗播放视频 -->
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>>遇见你之前<</h2>
+                    <p>露易莎(<span id="span1">艾米莉亚·克拉克 </span>)是一个年轻的小镇姑娘,威尔(<span id="span1">山姆·克拉弗林</span>)则过着十分优渥的生活。直到一场事故之后，脖子以下高位截瘫，小露后来成为了他的护工。威尔最初的时候很痛苦，也很刻薄。而小露带着他去马赛，跟他一起看音乐会，深夜忏悔时蜷在他身旁，改变了威尔的生活和内心。两个人产生了爱情，但最后威尔不堪身体的痛苦，在与露易莎好好告别之后，选择了安乐死。</p>
+                    <input type="button" onclick="openwin3()" value="查看视频">
+                    <!-- 按钮启动弹窗播放视频 -->
+                </td>
+                <td><img src="./images/遇见你之前.jpg" alt=""></td>
+            </tr>
+        </table>
+    </section>
+    <!-- 页脚区 -->
+    <footer>感谢你的浏览！</footer>
+</body>
+</html>
